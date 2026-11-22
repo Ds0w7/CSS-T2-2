@@ -1,0 +1,160 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+
+
+#capcalera {
+    background-color: #2563eb;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.menu ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+
+
+.caixa-avis {
+    border: 3px solid;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+
+
+.llistat-recursos p {
+    margin-bottom: 10px;
+}
+
+
+
+.llistat-recursos > h2 {
+    color: #1d4ed8;
+    margin-bottom: 10px;
+}
+
+
+
+h2 + p {
+    font-weight: bold;
+    color: #059669;
+}
+
+
+
+h2 ~ p {
+    padding-left: 10px;
+}
+
+
+
+.fitxa {
+    background-color: white;
+    border: 1px solid #d1d5db;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.fitxa h3 {
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.fitxa p {
+    margin-bottom: 12px;
+}
+
+
+
+.etiqueta-inline {
+    background-color: #dbeafe;
+    color: #1e40af;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+
+
+
+a {
+    transition: 0.3s;
+}
+
+
+a[href^="https"] {
+    color: #2563eb;
+}
+
+
+a[href$=".pdf"] {
+    color: #dc2626;
+    font-weight: bold;
+}
+
+
+a:hover {
+    opacity: 0.8;
+}
+
+
+
+.fitxa:first-child {
+    border-left: 6px solid #22c55e;
+}
+
+.fitxa:last-child {
+    border-left: 6px solid #f59e0b;
+}
+
+
+
+#contingut {
+    max-width: 900px;
+    margin: auto;
+}
+
+
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #e5e7eb;
+    border-radius: 8px;
+}
